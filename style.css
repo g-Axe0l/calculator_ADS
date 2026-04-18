@@ -1,0 +1,34 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #ffffff;
+}
+
+.calculadora {
+  background: #333;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#display {
+  width: 95%;
+  height: 50px;
+  margin-bottom: 18px;
+  font-size: 20px;
+  text-align: right;
+  padding: 5px;
+}
+
+.botoes {
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+  gap: 10px;
+}
+
+button {
+  height: 50px;
+  font-size: 18px;
+  cursor: pointer;
+}
